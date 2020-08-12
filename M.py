@@ -13,14 +13,14 @@ OrgId = '1013118'
 UserId='Kohara'
 Pass='Longbf#9'
 
-
+#Change path each time we get a new excel doc pulling info from RV
 path=r"C:\Users\RonaldZamechek\OneDrive - Longbridge Financial\Documents\COPY of MERS 7-29.xlsx"
 workbook=openpyxl.load_workbook(path)
 
 sheet=workbook.active
 rows=sheet.max_row
 cols=sheet.max_column
-
+#Change path for each user
 driver = webdriver.Firefox(executable_path=r"C:\Users\RonaldZamechek\geckodriver.exe")
 
 def login():
