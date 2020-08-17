@@ -9,9 +9,9 @@ import datetime
 # click on registration
 # credentials
 #Get rid of plain text password, take entire script once its final and encode entire script in base 64 to encrypt. Put data into sharepoint list
-OrgId = '1013118'
-UserId='Kohara'
-Pass='Longbf#9'
+OrgId = 
+UserId=
+Pass=
 
 #Change path each time we get a new excel doc pulling info from RV
 path=r"C:\Users\RonaldZamechek\OneDrive - Longbridge Financial\Documents\COPY of MERS 7-29.xlsx"
